@@ -67,7 +67,7 @@ public void setUp() {
 
 @Test
 public void personInfoTest() {
-    // Принимаем кукисы
+    // Принимаем куки
     driver.findElement(questionCookieButton).click();
 
     // прокручиваем до кнопки Заказать
