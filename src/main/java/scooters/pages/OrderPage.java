@@ -24,7 +24,7 @@ public class OrderPage {
     // раскрывающийся список станций метро
     public static By metroList = By.xpath("//input[@placeholder='* Станция метро']");
 
-    // станция метро "Черкизовская"
+    // станция метро Черкизовская
     public static By stationCherkizovskaya = By.xpath("//li/button/div[text()='Черкизовская']");
 
     // станция метро "Красносельская"
