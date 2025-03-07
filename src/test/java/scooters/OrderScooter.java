@@ -70,7 +70,7 @@ public void personInfoTest() {
     // Принимаем куки
     driver.findElement(questionCookieButton).click();
 
-    // прокручиваем до кнопки Заказать
+    // прокручиваем до кнопки Заказать.
     WebElement element = driver.findElement(orderStart);
     ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
 

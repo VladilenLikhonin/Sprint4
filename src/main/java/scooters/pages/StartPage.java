@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class StartPage {
 
-    // кнопка согласия с работой с куки
+    // кнопка согласия с работой с куки.
     public static By questionCookieButton = By.id("rcc-confirm-button");
 
     // выпадающий вопрос "Сколько это стоит? И как оплатить?"

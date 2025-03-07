@@ -3,7 +3,7 @@ import org.openqa.selenium.By; //button[contains(@class, 'Home_FinishButton') an
 
 public class OrderPage {
 
-    // кнопка согласия с работой куки
+    // кнопка согласия с работой куки.
     public static By questionCookieButton = By.id("rcc-confirm-button");
 
     // кнопка "Заказать" внизу страницы
