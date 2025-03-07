@@ -27,7 +27,7 @@ public class OrderPage {
     // станция метро Черкизовская
     public static By stationCherkizovskaya = By.xpath("//li/button/div[text()='Черкизовская']");
 
-    // станция метро "Красносельская"
+    // станция метро Красносельская
     public static By stationKrasnoselskaya = By.xpath("//li/button/div[text()='Красносельская']");
 
     // поле для ввода номера телефона

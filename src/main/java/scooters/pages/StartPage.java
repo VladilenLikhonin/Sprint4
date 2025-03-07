@@ -47,7 +47,6 @@ public class StartPage {
     // ответ на вопрос "Я живу за МКАДом, привезёте?"
     public static By responseOutsideMoscow = By.id("accordion__panel-7");
 
-
 }
 
 

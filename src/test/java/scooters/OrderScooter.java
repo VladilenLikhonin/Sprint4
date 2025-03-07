@@ -77,7 +77,7 @@ public void personInfoTest() {
     // Нажимаем на кнопку Заказать
     driver.findElement(orderStart).click();
 
-    // Дожидаемся появление текста Для кого самокат
+    // Дожидаемся появление текста "Для кого самокат"
     wait.until(ExpectedConditions.presenceOfElementLocated(scooterFor));
 
     // Заполняем форму на странице Для кого самокат

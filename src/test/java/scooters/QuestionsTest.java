@@ -54,7 +54,7 @@ public class QuestionsTest {
     @Test
     public void testQuestionAndAnswer() {
         try {
-            // Принимаем кукисы
+            // Принимаем куки
             driver.findElement(questionCookieButton).click();
 
             // JavaScriptExecutor Прокрутка до конца страницы
